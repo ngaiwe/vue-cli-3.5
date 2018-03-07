@@ -17,7 +17,6 @@ const router = jsonServer.router(base)
 server.use(router)
 
 router.render = (req, res) => {
-  console.log(res)
   res.jsonp({
     data: res.locals.data,
     status: 0,

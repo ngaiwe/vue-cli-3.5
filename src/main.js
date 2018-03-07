@@ -10,9 +10,9 @@ Vue.config.devtools = true
 Vue.config.productionTip = false
 
 Vue.prototype.$get = Get
-Vue.prototype.$get = Post
-Vue.prototype.$get = Put
-Vue.prototype.$get = Delete
+Vue.prototype.$post = Post
+Vue.prototype.$put = Put
+Vue.prototype.$delete = Delete
 
 /* eslint-disable no-new */
 new Vue({
